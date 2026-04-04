@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Device : Samsung Galaxy A52s 5G (a52sxq) -->
+
+<manifest>
+
+<!-- Remotes -->
+    <remote    name="axion-a52sxq"     fetch="https://github.com/A52s-5G-Testing"     revision="16.2-axion"                   />
+    <remote    name="general"          fetch="https://github.com/A52s-5G-Testing"     revision="16.2"                         />
+    <remote    name="lineage"          fetch="https://github.com/LineageOS"           revision="lineage-23.2"                 />
+
+<!-- Custom Trees -->
+    <project   remote="axion-a52sxq"   name="device_samsung_a52sxq"                   path="device/samsung/a52sxq"            />
+
+<!-- General Trees -->
+    <project   remote="general"        name="device_samsung_sm7325-common"            path="device/samsung/sm7325-common"     />
+    <project   remote="general"        name="vendor_samsung_a52sxq"                   path="vendor/samsung/a52sxq"            />
+    <project   remote="general"        name="vendor_samsung_sm7325-common"            path="vendor/samsung/sm7325-common"     />
+    <project   remote="general"        name="kernel_samsung_sm7325"                   path="kernel/samsung/sm7325"            />
+    <project   remote="lineage"        name="android_hardware_samsung"                path="hardware/samsung"                 />
+    <project   remote="lineage"        name="android_hardware_samsung_slsi_nfc"       path="hardware/samsung_slsi/nfc"        />
+
+<!-- Packages -->
+    <project   remote="general"        name="packages_apps_GameBar"                   path="packages/apps/GameBar"            />
+    <project   remote="general"        name="hardware_samsung-ext_interfaces"         path="hardware/samsung-ext/interfaces"  />
+    <project   remote="general"        name="vendor_sony_dolby"                       path="vendor/sony/dolby"                />
+    <project   remote="general"        name="packages_apps_LunarisDolby"              path="packages/apps/LunarisDolby"       />
+
+</manifest>
