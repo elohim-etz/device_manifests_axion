@@ -21,8 +21,4 @@
 
     <!-- Camera -->
     <project remote="extra" name="vendor_oneplus_camera" path="vendor/oneplus/camera" revision="fifteen" />
-
-    <!-- Audio fix -->
-    <remove-project path="hardware/qcom-caf/sm8250/audio" />
-    <project remote="ax" name="android_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" />
 </manifest>
