@@ -22,4 +22,8 @@
     <!-- Replace hardware/lineage/compat -->
     <remove-project path="hardware/lineage/compat" />
     <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="gh" revision="lineage-23.2" />
+
+    <!-- Replace frameworks/av -->
+    <remove-project path="frameworks/av" />
+    <project path="frameworks/av" name="elohim-etz/android_frameworks_av" remote="gh" revision="lineage-23.2" />
 </manifest>
