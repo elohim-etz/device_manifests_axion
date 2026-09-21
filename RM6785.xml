@@ -6,7 +6,7 @@
     <remote name="cb" fetch="https://codeberg.org/" />
 
     <!-- Device / Kernel -->
-    <project path="device/realme/RM6785" name="elohim-etz/android_device_realme_RM6785" remote="gh" revision="staging" />
+    <project path="device/realme/RM6785" name="elohim-etz/android_device_realme_RM6785" remote="gh" revision="lineage-23.2" />
     <project path="kernel/realme/mt6785" name="elohim-etz/android_kernel_realme_mt6785" remote="gh" revision="lineage-23.2" clone-depth="1" />
 
     <!-- Proprietary Vendor -->
